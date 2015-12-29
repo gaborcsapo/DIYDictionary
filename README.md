@@ -1,5 +1,5 @@
 # DIYDictionary
-This app was a project I wanted to make for a long time. I combined the need I felt for learning how to develop for smartphones and my need for a dictionary app to make it easier to expand my vocabulary. **You can download the ready apk file from diyd.herokuapp.com **
+This app was a project I wanted to make for a long time. I combined the need I felt for learning how to develop for smartphones and my need for a dictionary app to make it easier to expand my vocabulary. **You can download the ready apk file from www.diyd.herokuapp.com**
 
 The purpose of the app is to enable people living in a foreign language environment to make use of the countless new words they meet every day. If the user encounters a new word that he wants to remember, he can type in the word and its meaning, then create or a choose a group where he wants to put the word and save it. On the list tab, he can also choose to display individual groups. The data is stored for offline use locally and is also uploaded to a database for back up and to serve the words to anyone through the DIYDictionary API.
 
@@ -18,9 +18,9 @@ I also designed a logo, a slogan and a splash page for the application to make i
 #API documentation
 I also built a server backend using CouchDB that stores and serves the data inputed by the users. This section explains how the data is structured and how the API works.
 
-diyd.herokuapp.com is an example website that requests data from the API route.
+www.diyd.herokuapp.com is an example website that requests data from the API route.
 - http://diyd.herokuapp.com/api/all returns all the data stored in the database
-- http://diyd.herokuapp.com/api/{ID code} returns all the data related to the user with the ID code specified in the URL.
+- http://diyd.herokuapp.com/api/{IDcode} returns all the data related to the user with the ID code specified in the URL.
 
 The request returns a JSON object, where 
 - the ID property is the ID number of the user. It is stored 3 times which is not efficient, but I couldn’t find an easy way to get rid of them.
