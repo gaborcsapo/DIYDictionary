@@ -18,7 +18,7 @@ I also designed a logo, a slogan and a splash page for the application to make i
 #API documentation
 I also built a server backend using CouchDB that stores and serves the data inputed by the users. This section explains how the data is structured and how the API works.
 
-https://diyd.herokuapp.com/ is an example website that requests data from the API route.
+https://diyd.herokuapp.com is an example website that requests data from the API route.
 - http://diyd.herokuapp.com/api/all returns all the data stored in the database
 - http://diyd.herokuapp.com/api/{IDcode} returns all the data related to the user with the ID code specified in the URL.
 
